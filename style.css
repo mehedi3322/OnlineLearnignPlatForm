@@ -1,0 +1,76 @@
+/* =========================
+   GENERAL
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.nav-link {
+    color: #4b5563;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero-circle {
+    width: 320px;
+    height: 320px;
+
+    background-color: #bfdbfe;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================
+   COURSE CARD
+========================= */
+
+.course-card {
+    background-color: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================
+   COURSE IMAGE
+========================= */
+
+.course-image {
+    height: 192px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 60px;
+}

@@ -1,276 +1,132 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LearnHub-Online Learning</title>
+```
+<title>LearnHub - Online Learning</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- ================= NAVBAR ================= -->
-    <nav class="bg-white shadow-sm">
+```
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-white shadow-sm">
 
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-            <!-- Logo -->
-            <div class="text-2xl font-bold text-blue-600">
-                LearnHub
-            </div>
+        <!-- Logo -->
+        <a href="index.html" class="text-2xl font-bold text-blue-600">
+            LearnHub
+        </a>
 
-            <!-- Navigation Links -->
-            <div class="hidden md:flex gap-8">
+        <!-- Navigation Links -->
+        <div class="hidden md:flex gap-8">
 
-                <a href="#" class="nav-link">
-                    Home
-                </a>
+            <a href="index.html" class="nav-link">
+                Home
+            </a>
 
-                <a href="#" class="nav-link">
-                    Courses
-                </a>
+            <a href="courses.html" class="nav-link">
+                Courses
+            </a>
 
-                <a href="#" class="nav-link">
-                    About
-                </a>
+            <a href="#" class="nav-link">
+                About
+            </a>
 
-                <a href="#" class="nav-link">
-                    Contact
-                </a>
-
-            </div>
-
-            <!-- Login Button -->
-            <button
-                class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
-                Login
-            </button>
-
-        </div>
-
-    </nav>
-
-
-    <!-- ================= HERO SECTION ================= -->
-    <section class="bg-blue-50">
-
-        <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
-
-            <!-- Hero Content -->
-            <div>
-
-                <p class="text-blue-600 font-semibold mb-3">
-                    LEARN ANYTHING, ANYWHERE
-                </p>
-
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
-
-                    Improve Your Skills With
-
-                    <span class="text-blue-600">
-                        Online Learning
-                    </span>
-
-                </h1>
-
-                <p class="text-gray-600 text-lg mb-8">
-                    Learn new skills from professional instructors
-                    and build your future with quality online courses.
-                </p>
-
-
-                <!-- Search Box -->
-                <div class="flex bg-white rounded-lg shadow-md p-2 max-w-lg">
-
-                    <input
-                        id="searchInput"
-                        type="text"
-                        placeholder="What do you want to learn?"
-                        class="flex-1 px-4 py-3 outline-none">
-
-                    <button
-                        id="searchButton"
-                        class="bg-blue-600 text-white px-6 rounded-lg hover:bg-blue-700 transition">
-
-                        Search
-
-                    </button>
-
-                </div>
-
-            </div>
-
-
-            <!-- Hero Illustration -->
-            <div class="flex justify-center">
-
-                <div class="hero-circle">
-
-                    <div class="text-center">
-
-                        <div class="text-7xl mb-4">
-                            📚
-                        </div>
-
-                        <p class="text-xl font-semibold text-blue-700">
-                            Start Learning
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= POPULAR COURSES ================= -->
-    <section class="max-w-7xl mx-auto px-6 py-16">
-
-        <!-- Section Header -->
-        <div class="flex justify-between items-center mb-8">
-
-            <div>
-
-                <h2 class="text-3xl font-bold">
-                    Popular Courses
-                </h2>
-
-                <p class="text-gray-500 mt-2">
-                    Learn from our most popular courses
-                </p>
-
-            </div>
-
-            <a href="#" class="text-blue-600 font-semibold">
-                View All
+            <a href="#" class="nav-link">
+                Contact
             </a>
 
         </div>
 
+        <!-- Login Button -->
+        <button
+            class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+            Login
+        </button>
 
-        <!-- Course Cards -->
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    </div>
 
-
-            <!-- Course Card 1 -->
-            <div class="course-card">
-
-                <div class="course-image bg-blue-100">
-                    💻
-                </div>
-
-                <div class="p-5">
-
-                    <span class="text-sm text-blue-600 font-semibold">
-                        Web Development
-                    </span>
-
-                    <h3 class="text-xl font-bold mt-2">
-                        Complete HTML & CSS Course
-                    </h3>
-
-                    <p class="text-gray-500 mt-2">
-                        Learn the basics of HTML and CSS from scratch.
-                    </p>
-
-                    <div class="flex justify-between items-center mt-5">
-
-                        <span class="text-yellow-500">
-                            ★★★★★
-                        </span>
-
-                        <span class="font-bold text-lg">
-                            $25
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
+</nav>
 
 
-            <!-- Course Card 2 -->
-            <div class="course-card">
+<!-- ================= HERO SECTION ================= -->
+<section class="bg-blue-50">
 
-                <div class="course-image bg-green-100">
-                    ⚡
-                </div>
+    <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
 
-                <div class="p-5">
+        <!-- Hero Content -->
+        <div>
 
-                    <span class="text-sm text-green-600 font-semibold">
-                        JavaScript
-                    </span>
+            <p class="text-blue-600 font-semibold mb-3">
+                LEARN ANYTHING, ANYWHERE
+            </p>
 
-                    <h3 class="text-xl font-bold mt-2">
-                        JavaScript for Beginners
-                    </h3>
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
 
-                    <p class="text-gray-500 mt-2">
-                        Learn JavaScript and make your websites interactive.
-                    </p>
+                Improve Your Skills With
 
-                    <div class="flex justify-between items-center mt-5">
+                <span class="text-blue-600">
+                    Online Learning
+                </span>
 
-                        <span class="text-yellow-500">
-                            ★★★★☆
-                        </span>
+            </h1>
 
-                        <span class="font-bold text-lg">
-                            $30
-                        </span>
+            <p class="text-gray-600 text-lg mb-8">
+                Learn new skills from professional instructors
+                and build your future with quality online courses.
+            </p>
 
-                    </div>
 
-                </div>
+            <!-- Search Box -->
+            <div class="flex bg-white rounded-lg shadow-md p-2 max-w-lg">
+
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="What do you want to learn?"
+                    class="flex-1 px-4 py-3 outline-none">
+
+                <button
+                    id="searchButton"
+                    class="bg-blue-600 text-white px-6 rounded-lg hover:bg-blue-700 transition">
+
+                    Search
+
+                </button>
 
             </div>
 
+        </div>
 
-            <!-- Course Card 3 -->
-            <div class="course-card">
 
-                <div class="course-image bg-purple-100">
-                    ⚛️
-                </div>
+        <!-- Hero Illustration -->
+        <div class="flex justify-center">
 
-                <div class="p-5">
+            <div class="hero-circle">
 
-                    <span class="text-sm text-purple-600 font-semibold">
-                        React
-                    </span>
+                <div class="text-center">
 
-                    <h3 class="text-xl font-bold mt-2">
-                        React JS Masterclass
-                    </h3>
-
-                    <p class="text-gray-500 mt-2">
-                        Build modern websites using React.
-                    </p>
-
-                    <div class="flex justify-between items-center mt-5">
-
-                        <span class="text-yellow-500">
-                            ★★★★★
-                        </span>
-
-                        <span class="font-bold text-lg">
-                            $40
-                        </span>
-
+                    <div class="text-7xl mb-4">
+                        📚
                     </div>
+
+                    <p class="text-xl font-semibold text-blue-700">
+                        Start Learning
+                    </p>
 
                 </div>
 
@@ -278,33 +134,187 @@
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- ================= FOOTER ================= -->
-    <footer class="bg-gray-900 text-white">
+<!-- ================= POPULAR COURSES ================= -->
+<section class="max-w-7xl mx-auto px-6 py-16">
 
-        <div class="max-w-7xl mx-auto px-6 py-8 text-center">
+    <!-- Section Header -->
+    <div class="flex justify-between items-center mb-8">
 
-            <h2 class="text-xl font-bold">
-                LearnHub
+        <div>
+
+            <h2 class="text-3xl font-bold">
+                Popular Courses
             </h2>
 
-            <p class="text-gray-400 mt-2">
-                Learn today. Build tomorrow.
-            </p>
-
-            <p class="text-gray-500 text-sm mt-5">
-                © 2026 LearnHub by Mehedi Hasan. All rights reserved.
+            <p class="text-gray-500 mt-2">
+                Learn from our most popular courses
             </p>
 
         </div>
 
-    </footer>
+        <a
+            href="courses.html"
+            class="text-blue-600 font-semibold">
+
+            View All
+
+        </a>
+
+    </div>
 
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    <!-- Course Cards -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+        <!-- Course Card 1 -->
+        <div class="course-card">
+
+            <div class="course-image bg-blue-100">
+                💻
+            </div>
+
+            <div class="p-5">
+
+                <span class="text-sm text-blue-600 font-semibold">
+                    Web Development
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    Complete HTML & CSS Course
+                </h3>
+
+                <p class="text-gray-500 mt-2">
+                    Learn the basics of HTML and CSS from scratch.
+                </p>
+
+                <div class="flex justify-between items-center mt-5">
+
+                    <span class="text-yellow-500">
+                        ★★★★★
+                    </span>
+
+                    <span class="font-bold text-lg">
+                        $25
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Course Card 2 -->
+        <div class="course-card">
+
+            <div class="course-image bg-green-100">
+                ⚡
+            </div>
+
+            <div class="p-5">
+
+                <span class="text-sm text-green-600 font-semibold">
+                    JavaScript
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    JavaScript for Beginners
+                </h3>
+
+                <p class="text-gray-500 mt-2">
+                    Learn JavaScript and make your websites interactive.
+                </p>
+
+                <div class="flex justify-between items-center mt-5">
+
+                    <span class="text-yellow-500">
+                        ★★★★☆
+                    </span>
+
+                    <span class="font-bold text-lg">
+                        $30
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Course Card 3 -->
+        <div class="course-card">
+
+            <div class="course-image bg-purple-100">
+                ⚛️
+            </div>
+
+            <div class="p-5">
+
+                <span class="text-sm text-purple-600 font-semibold">
+                    React
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    React JS Masterclass
+                </h3>
+
+                <p class="text-gray-500 mt-2">
+                    Build modern websites using React.
+                </p>
+
+                <div class="flex justify-between items-center mt-5">
+
+                    <span class="text-yellow-500">
+                        ★★★★★
+                    </span>
+
+                    <span class="font-bold text-lg">
+                        $40
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-900 text-white">
+
+    <div class="max-w-7xl mx-auto px-6 py-8 text-center">
+
+        <h2 class="text-xl font-bold">
+            LearnHub
+        </h2>
+
+        <p class="text-gray-400 mt-2">
+            Learn today. Build tomorrow.
+        </p>
+
+        <p class="text-gray-500 text-sm mt-5">
+            © 2026 LearnHub by Mehedi Hasan. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+```
 
 </body>
 
